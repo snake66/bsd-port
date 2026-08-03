@@ -76,6 +76,7 @@ jobs:
       windows-aarch64: ${{ steps.include.outputs.windows-aarch64 }}
       openbsd-x64: ${{ steps.include.outputs.openbsd-x64 }}
       freebsd-x64: ${{ steps.include.outputs.freebsd-x64 }}
+      freebsd-aarch64: ${{ steps.include.outputs.freebsd-aarch64 }}
       docs: ${{ steps.include.outputs.docs }}
       dry-run: ${{ steps.include.outputs.dry-run }}
 
