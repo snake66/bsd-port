@@ -192,6 +192,7 @@ jobs:
           echo "windows-aarch64=$(check_platform windows-aarch64 windows aarch64)" >> $GITHUB_OUTPUT
           echo "openbsd-x64=$(check_platform openbsd-x64 openbsd x64)" >> $GITHUB_OUTPUT
           echo "freebsd-x64=$(check_platform freebsd-x64 freebsd x64)" >> $GITHUB_OUTPUT
+          echo "freebsd-aarch64=$(check_platform freebsd-aarch64 freebsd aarch64)" >> $GITHUB_OUTPUT
           echo "docs=$(check_platform docs)" >> $GITHUB_OUTPUT
           echo "dry-run=$(check_dry_run)" >> $GITHUB_OUTPUT
 
